@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spread Code</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-[#272A33] text-white">
+    <main>
+        <nav id="nav" class="flex flex-col lg:flex-row lg:items-center lg:justify-center gap-3 lg:gap-20 lg:px-20 py-5 fixed top-0 bg-[#272A33] w-full z-30">
+                <div class="flex w-full lg:w-fit items-center justify-around lg:justify-start">
+                        <img width="36" src="logo.svg" alt="logo">
+                        <h1 class="cursor-pointer text-xl font-bold tracking-[2px]">SPREADCODE</h1>
+                    <div class="flex lg:hidden"><img id="menu" src="menu.svg" alt=""></div>
+                </div>
+                <ul id="ul" class="hidden lg:flex flex-col lg:flex-row px-10 lg:px-0 lg:my-auto  items-center gap-5 lg:gap-10">
+                    <a class="cursor-pointer text-sm font-medium text-[#ffffffcb] hover:text-white" style="font-family: rubik;" href="#Home">Home</a>
+                    <a class="cursor-pointer text-sm font-medium text-[#ffffffcb] hover:text-white" style="font-family: rubik;" href="#Services">Services</a>
+                    <a class="cursor-pointer text-sm font-medium text-[#ffffffcb] hover:text-white" style="font-family: rubik;" href="#Features">Features</a>
+                    <a class="cursor-pointer text-sm font-medium text-[#ffffffcb] hover:text-white" style="font-family: rubik;" href="#Pricing">Pricing</a>
+                    <a class="cursor-pointer text-sm font-medium text-[#ffffffcb] hover:text-white" style="font-family: rubik;" href="#Team">Team</a>
+                    <a class="cursor-pointer text-sm font-medium text-[#ffffffcb] hover:text-white" style="font-family: rubik;" href="#Contact">Contact</a>
+                </ul>
+        </nav>  
+
+        <section id="Home" class="w-full h-screen relative">
+            <div class="bg-[url(https://spreadcode.org/images/bg-home.jpg)] bg-cover bg-center bg-no-repeat w-full h-full opacity-50 absolute z-[-2]"></div>
+            <div class="overlay bg-gradient-to-r from-[#512DA8] to-[#8c2722] opacity-80 w-full h-full absolute z-[-1]"></div>
+        <div class="py-[35vh]">
+            <div class="w-fit m-auto ">
+                <h1 class="font-medium text-5xl text-center leading-relaxed">We Help Businesses Launch</h1>
+                <h1 class="font-medium text-5xl text-center">Their Products.</h1>
+                <p class="text-center text-sm mt-10 text-[#ffffffcb]" style="font-family: rubik;">Dinosaurs went extinct, but your brand will never see the same fate.</p>
+            </div>        
+        </div>
+    <div class="absolute bottom-0 w-full h-[110px] overflow-hidden">
+        
+        <img class="absolute bottom-0 w-[200%] h-full z-15 opacity-50 overflow-hidden" src="https://spreadcode.org/images/wave-shape/wave1.png" alt="">
+        
+        <img class="absolute bottom-[-20px] w-[150%] h-full z-10 opacity-75 " src="https://spreadcode.org/images/wave-shape/wave2.png" alt="">
+        
+        <img class="absolute bottom-[-35px] w-[150%] h-full z-5 " src="https://spreadcode.org/images/wave-shape/wave3.png" alt="">
+    </div>
+</section> 
+
+<section id="Services" class="bg-white text-black w-full py-20">
+    <div class="lg:w-[55%] m-auto flex flex-col items-center gap-5">
+        <h1 class="text-3xl text-center font-medium tracking-[2px] after:content-[''] after:w-12 after:h-[2px] after:bg-[#FB3E3E]  after:absolute after:bottom-[-10px] after:left-[70px] relative py-3">OUR SERVICES</h1>
+        <p class="text-center text-sm text-[#B5BABF] mt-4" style="font-family: rubik;">We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value for our clients.</p>
+    </div>
+        <div class="grid  grid-cols-1 lg:grid-rows-2 lg:grid-cols-3 w-4/5 m-auto mt-20 gap-x-10 gap-y-20">
+
+            <div class="flex flex-col items-center gap-5 hover:translate-y-[-10px] group transition-all duration-300">
+                <span class="material-symbols-outlined text-[#FB3E3E] p-4 rounded-full group-hover:text-white group-hover:bg-[#FB3E3E]  transition-all duration-300" style="font-size: 34px;">dvr</span>
+                <h1 class="font-medium text-lg">Web Design and Development</h1>
+                <p class="text-sm text-center text-[#B5BABF]" style="font-family: rubik;">We create world dominating designs with the modern tech stack to always be relevant in the long run.</p>
+            </div>
+            <div class="flex flex-col items-center gap-5 hover:translate-y-[-10px] group transition-all duration-300">
+                <span class="material-symbols-outlined text-[#FB3E3E] p-4 rounded-full group-hover:text-white group-hover:bg-[#FB3E3E]  transition-all duration-300" style="font-size: 34px;">phone_android</span>
+                <h1 class="font-medium text-lg">Mobile App Development</h1>
+                <p class="text-sm text-center text-[#B5BABF]" style="font-family: rubik;">Keep your business mobile so customers can access it anywhere,anytime.</p>
+            </div>
+            <div class="flex flex-col items-center gap-5 hover:translate-y-[-10px] group transition-all duration-300">
+                <span class="material-symbols-outlined text-[#FB3E3E] p-4 rounded-full group-hover:text-white group-hover:bg-[#FB3E3E]  transition-all duration-300" style="font-size: 34px;">local_mall</span>
+                <h1 class="font-medium text-lg">E-Commerce Solutions</h1>
+                <p class="text-sm text-center text-[#B5BABF]" style="font-family: rubik;">Spare your customers the pain of walking down to your store.</p>
+            </div>
+            <div class="flex flex-col items-center gap-5 hover:translate-y-[-10px] group transition-all duration-300">
+                <span class="material-symbols-outlined text-[#FB3E3E] p-4 rounded-full group-hover:text-white group-hover:bg-[#FB3E3E]  transition-all duration-300" style="font-size: 34px;">group</span>
+                <h1 class="font-medium text-lg">IT Resource Allocation.</h1>
+                <p class="text-sm text-center text-[#B5BABF]" style="font-family: rubik;">Dont let your idea loose the pace. Plug and Play, Teams that cater your needs.</p>
+            </div>
+            <div class="flex flex-col items-center gap-5 hover:translate-y-[-10px] group transition-all duration-300">
+                <span class="material-symbols-outlined text-[#FB3E3E] p-4 rounded-full group-hover:text-white group-hover:bg-[#FB3E3E]  transition-all duration-300" style="font-size: 34px;">cloud</span>
+                <h1 class="font-medium text-lg">Managed Cloud Hosting</h1>
+                <p class="text-sm text-center text-[#B5BABF]" style="font-family: rubik;">Your applications under supervision of Tech Ninjas always inaction to chop the bugs off.</p>
+            </div>
+            <div class="flex flex-col items-center gap-5 hover:translate-y-[-10px] group transition-all duration-300">
+                <span class="material-symbols-outlined text-[#FB3E3E] p-4 rounded-full group-hover:text-white group-hover:bg-[#FB3E3E]  transition-all duration-300" style="font-size: 34px;">lan</span>
+                <h1 class="font-medium text-lg">Digital Marketing</h1>
+                <p class="text-sm text-center text-[#B5BABF]" style="font-family: rubik;">We give you the best digital marketing services to increase your conversions, repeat the traffic,and increase your brand online visibility.</p>
+                </div>
+            </div>
+</section>
+
+<section id="Features" class="w-full h-full py-20 flex items-center justify-center bg-white">
+    <div class="w-[85%] m-auto flex flex-col lg:flex-row items-center justify-between">
+        <div class="lg:w-[40%] flex flex-col gap-10">
+            <h1 class="text-2xl font-medium text-black">A company dedicated to providing you a website/mobile app that will stand out amongst others.</h1>
+            <p class="text-[#B5BABF] text-sm" style="font-family: rubik;">We take good care of ensuring a fluid and robust design is implemented to take your business to new digital heights.</p>
+            <ul class="list-disc list-inside text-[#B5BABF] marker:text-[#FB3E3E] marker:text-lg space-y-5 ml-4" style="font-family: rubik;">
+                <li class="list-outside">We put a lot of effort in design.</li>
+                <li class="list-outside">The most important ingredient of successful website.</li>
+                <li class="list-outside">Easy scalability so dont worry about adding new features later on.</li>
+                <li class="list-outside">Contact us to start the amazing journey in the digital world.</li>
+                <li class="list-outside">We'll do all the heavy lifting so you can sit back and watch the magic unfold.</li>
+            </ul>
+            <button class="bg-[#FB3E3E] hover:bg-[#B80334] hover:translate-y-[-5px] transition-all duration-300 text-white font-medium text-sm w-fit px-6 py-3 rounded-md my-5 flex items-center justify-center">Learn More<span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span></button>
+        </div>
+        <div class="lg:w-[45%]">
+            <img src="online-world.svg" alt="">
+        </div>
+    </div>
+</section>
+
+<section class="w-full h-[60vh] relative">
+    <div class="bg-[url(https://spreadcode.org/images/img-1.jpg)] bg-cover bg-center bg-no-repeat w-full h-full opacity-50 absolute z-[-2]"></div>
+    <div class="overlay bg-gradient-to-r from-[#512DA8] to-[#8c2722] opacity-80 w-full h-full absolute z-[-1]"></div>
+    <div class="lg:w-[50%] h-full flex flex-col items-center justify-center gap-5 px-4 m-auto">
+        <h1 class="text-3xl text-center font-medium">Build your dream website today</h1>
+        <p class="text-sm text-[#D3BFCC] text-center leading-relaxed"  style="font-family: rubik;">Are the hassles of technology forcing you to procrastinate? Dont worry just tell us what u think and we'll make it happen.</p>
+        <button class="bg-white text-black hover:translate-y-[-5px] transition-all duration-300 text-sm w-fit px-6 py-3 rounded-md my-5 flex items-center justify-center"  style="font-family: rubik;">View Plan & Pricing</button>
+    </div>
+    <img class="absolute bottom-0" src="https://spreadcode.org/images/bg-pattern.png" alt="">
+</section>
+
+<section id="Pricing" class="bg-white w-full h-full py-20">
+    <div class="lg:w-[60%] m-auto flex flex-col items-center gap-5 p-2">
+        <h1 class="text-3xl text-center text-black font-medium tracking-[2px] after:content-[''] after:w-12 after:h-[2px] after:bg-[#FB3E3E]  after:absolute after:bottom-[-10px] after:left-[70px] relative py-3">OUR PRICING</h1>
+        <p class="text-center text-sm text-[#B5BABF] mt-4" style="font-family: rubik;">Considering the economic and existential crisis of this age, we made a plan that would be ECONOMICAL and FEASIBLE for you</p>
+    </div>
+    
+    <div class="flex flex-col lg:flex-row w-11/12 m-auto mt-20 text-black gap-5 justify-center">
+        
+        <div class="flex flex-col justify-center items-center gap-2 border rounded-md py-16 px-24 shadow-2xl shadow-[rgba(0,0,0,0.2)] hover:translate-y-[-20px] transition-all duration-300">
+            <div class="flex flex-col justify-center items-center gap-2 mb-5">
+                <h2 class="font-medium">ECONOMY</h2>
+                <h1 class="text-4xl font-medium">3600 USD</h1>
+                <span class="text-[#B5BABF] text-xs font-medium">BILLING PER YEAR</span>
+            </div>
+            <hr class="text-black w-full">
+            <div class="flex gap-1 font-medium mt-5"><span>OR</span><span class="text-[#FB3E3E]">300 USD/month</span></div>
+            <div class="flex flex-col justify-center items-center gap-6" style="font-family: rubik;">
+                <div class="flex gap-1"><span>Domain + Hosting</span><span class="font-semibold text-[#FB3E3E]">25GB</span></div>
+                <span>SEO</span>
+                <span class="text-center">Website Development</span>
+                <span>Maintenance</span>
+                <button class="bg-[#FB3E3E] py-2 px-5 text-white rounded-md mt-4 hover:bg-[#B80334] hover:translate-y-[-5px] transition-all duration-300">Join Now</button>
+            </div>
+        </div>
+
+        <div class="flex flex-col justify-center items-center gap-2 border rounded-md py-16 px-24 shadow-2xl shadow-[rgba(0,0,0,0.2)] hover:translate-y-[-20px] transition-all duration-300">
+            <div class="flex flex-col justify-center items-center gap-2 mb-5">
+                <h2 class="font-medium">DELUXE</h2>
+                <h1 class="text-4xl font-medium">7200 USD</h1>
+                <span class="text-[#B5BABF] text-xs font-medium">FOR 3 YEARS</span>
+            </div>
+            <hr class="text-black w-full">
+            <div class="flex gap-1 font-medium mt-5"><span>OR</span><span class="text-[#FB3E3E]">200 USD/month</span></div>
+            <div class="flex flex-col justify-center items-center gap-6" style="font-family: rubik;">
+                <div class="flex gap-1"><span>Domain + Hosting</span><span class="font-semibold text-[#FB3E3E]">25GB</span></div>
+                <span>SEO</span>
+                <span class="text-center">Website Development</span>
+                <span>Maintenance</span>
+                <button class="bg-[#FB3E3E] py-2 px-5 text-white rounded-md mt-4 hover:bg-[#B80334] hover:translate-y-[-5px] transition-all duration-300">Join Now</button>
+            </div>
+        </div>
+
+        <div class="flex flex-col justify-center items-center gap-2 border rounded-md py-16 px-24 shadow-2xl shadow-[rgba(0,0,0,0.2)] hover:translate-y-[-20px] transition-all duration-300">
+            <div class="flex flex-col justify-center items-center gap-2 mb-5">
+                <h2 class="font-medium">ULTIMATE</h2>
+                <h1 class="text-4xl font-medium">9000 USD</h1>
+                <span class="text-[#B5BABF] text-xs font-medium">FOR 5 YEARS</span>
+            </div>
+            <hr class="text-black w-full">
+            <div class="flex gap-1 font-medium text-xl mt-5"><span>OR</span><span class="text-[#FB3E3E]">150 USD/month</span></div>
+            <div class="flex flex-col justify-center items-center gap-6" style="font-family: rubik;">
+                <div class="flex gap-1"><span>Domain + Hosting</span><span class="font-semibold text-[#FB3E3E]">25GB</span></div>
+                <span>SEO</span>
+                <span class="text-center">Website Development</span>
+                <span>Maintenance</span>
+                <button class="bg-[#FB3E3E] py-2 px-5 text-white rounded-md mt-4 hover:bg-[#B80334] hover:translate-y-[-5px] transition-all duration-300">Join Now</button>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+<section class="workProcess bg-white text-[#212529] py-20 w-full">
+    <div class="lg:w-[60%] m-auto flex flex-col items-center gap-5 p-2">
+        <h1 class="text-3xl font-medium tracking-[2px] after:content-[''] after:w-12 after:h-[2px] after:bg-[#FB3E3E]  after:absolute after:bottom-[-10px] after:left-[70px] relative py-3">Work Process</h1>
+        <p class="text-center text-sm font-medium text-[#B5BABF] mt-4" style="font-family: rubik;">This is how we work in a nutshell, the inner workings are a giant machine of many cogs and wheels but you dont have to worry about that.</p>
+    </div>
+    <div class="flex flex-col lg:flex-row items-center w-[90%] justify-center m-auto gap-5 pt-14">
+        <div class="flex flex-col items-center lg:w-[30%] gap-2">
+            <span class="material-symbols-outlined text-[#FB3E3E]" style="font-size: 42px;">ink_pen</span>
+            <h1 class="font-medium text-lg">Tell us what you need</h1>
+            <p class="text-sm text-center text-[#B5BABF]" style="font-family: rubik;">Long descriptions, short conversations, children's drawings, however you can express yourself we will understand.</p>
+        </div>
+        <div class=" flex flex-col items-center lg:w-[30%] gap-2">
+            <span class="material-symbols-outlined text-[#FB3E3E]" style="font-size: 42px;">badge</span>
+            <h1 class="font-medium text-lg">Get free quotes</h1>
+            <p class="text-sm text-center text-[#B5BABF]" style="font-family: rubik;">Free stuff is always nice so we throw it around alot as well.</p>
+        </div>
+        <div class=" flex flex-col items-center lg:w-[30%] gap-2">
+            <span class="material-symbols-outlined text-[#FB3E3E]" style="font-size: 42px;">target</span>
+            <h1 class="font-medium text-lg">Deliver high quality product</h1>
+            <p class="text-sm text-center text-[#B5BABF]" style="font-family: rubik;">The final result will be guaranteed to be beyond what you initially imagined...in a good way that is. And support is always there to update and maintain.</p>
+        </div>       
+    </div>
+    <button class="m-auto bg-[#FB3E3E] hover:bg-[#B80334] hover:translate-y-[-5px] transition-all duration-300 text-white font-medium text-sm w-fit px-6 py-3 rounded-md mt-10 flex items-center justify-center" style="font-family: rubik;">Get Started<span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span></button>
+</section>
+
+<section id="Team" class="bg-white py-20">
+    <div class="lg:w-[60%] m-auto flex flex-col text-center items-center gap-5 p-2">
+        <h1 class="text-3xl font-medium text-[#212529] tracking-[2px] after:content-[''] after:w-12 after:h-[2px] after:bg-[#FB3E3E]  after:absolute after:bottom-[-10px] after:left-[130px] relative py-3">WHAT THEY'VE SAID</h1>
+        <p class="text-center text-sm text-[#B5BABF] mt-4" style="font-family: rubik;">With 100+ projects successfully completed here are a few clients who have regularly worked with us.</p>
+    </div>
+    <div class="flex flex-col lg:flex-row justify-center items-center w-[80%] text-[#B5BABF] m-auto gap-32 lg:gap-10 py-20">
+
+        <div class="border rounded-md pt-14 pb-24 lg:h-[60vh] lg:w-1/3 lg:py-14 px-5 shadow-sm shadow-[rgba(0,0,0,0.2)] hover:translate-y-[-20px] transition-all duration-300 relative">
+            <img class="rounded-full border absolute top-[-10%] right-[40%]" width="68" src="https://spreadcode.org/images/testimonials/profile.jpg" alt="">
+            <p class="text-center text-sm italic" style="font-family: rubik;">“Great job developing a custom wordpress plugin to track user activity. Clear communication and fast, high quality work. Highly recommended.”</p>
+            <p class="absolute font-medium text-sm bottom-[-10%] right-[40%]"><span class="text-[#212529]">LEE BETTS -</span>UK</p>
+        </div>
+        <div class="border rounded-md pt-14 pb-24 lg:h-[60vh] lg:w-1/3 lg:py-14 px-5 shadow-sm shadow-[rgba(0,0,0,0.2)] hover:translate-y-[-20px] transition-all duration-300 relative">
+            <img class="rounded-full border absolute top-[-10%] right-[40%]" width="68" src="https://spreadcode.org/images/testimonials/profile.jpg" alt="">
+            <p class="text-center text-sm italic" style="font-family: rubik;">“This was an absolutely massive project. They kept going through all of the ups and downs that we had as any big project does and didn’t stop until it was all working. they stayed up until the very late hours to ensure it was all completed. Totally recommend this team. This difficult project was definitely handled smoothly. Legend! ”</p>
+            <p class="absolute font-medium text-sm bottom-[-10%] right-[40%]"><span class="text-[#212529]">ALEX BAKER -</span>UK</p>
+        </div>
+        <div class="border rounded-md pt-14 pb-24 lg:h-[60vh] lg:w-1/3 lg:py-14 px-5 shadow-sm shadow-[rgba(0,0,0,0.2)] hover:translate-y-[-20px] transition-all duration-300 relative">
+            <img class="rounded-full border absolute top-[-10%] right-[40%]" width="68" src="https://spreadcode.org/images/testimonials/profile.jpg" alt="">
+            <p class="text-center text-sm italic" style="font-family: rubik;">“The final product was excellent. I could have communicated better on my end regarding the level of design help I wanted. Since I wasn't 100% with the website as it neared completion, I was able to contact Spreadcode in a jiffy. They finished it up post-call, presenting the final website within a couple days. The progress was excellent. Very happy and will continue to work with them on future projects.”</p>
+            <p class="absolute font-medium text-sm bottom-[-10%] right-[20%]"><span class="text-[#212529]">COURTNEY BOURDE -</span>USA</p>
+        </div>
+    </div>
+</section>
+
+<section class="w-full h-[60vh] relative">
+    <div class="bg-[url(https://spreadcode.org/images/img-2.jpg)] bg-cover bg-center bg-no-repeat w-full h-full opacity-70 absolute z-[-2]"></div>
+    <div class="overlay bg-gradient-to-r from-[#512DA8] to-[#8c2722] opacity-80 w-full h-full absolute z-[-1]"></div>
+    <div class="lg:w-[50%] h-full flex flex-col items-center justify-center gap-10 text-center px-[66px] m-auto">
+        <h1 class="text-4xl font-medium text-white after:content-[''] after:w-12 after:h-[2px] after:bg-white  after:absolute after:bottom-[-10px] after:left-[130px] relative py-3">Let's Get Started</h1>
+        <p class="text-sm text-center leading-relaxed" style="font-family: rubik;">
+            You have waited long enough to realize your dream, dont wait any longer.
+            Life is short,Get it done.</p>
+            <button class="bg-white hover:translate-y-[-5px] transition-all duration-300 text-black font-medium text-sm w-fit px-6 py-3 rounded-md flex items-center justify-center" style="font-family: rubik;">Get Started<span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span></button>
+        </div>
+    <img class="absolute bottom-0" src="https://spreadcode.org/images/bg-pattern.png" alt="">
+</section>
+
+<section id="Contact" class="bg-white text-[#212529] py-20" style="font-family: rubik;">
+    <div class="lg:w-[55%] m-auto flex flex-col items-center gap-5">
+        <h1 class="text-3xl text-center font-medium tracking-[2px] after:content-[''] after:w-12 after:h-[2px] after:bg-[#FB3E3E]  after:absolute after:bottom-[-10px] after:left-[70px] relative py-3" style="font-family: poppins;">GET IN TOUCH</h1>
+        <p class="text-center text-sm text-[#B5BABF] mt-4">Contact us and lets finish that project you have been thinking about it.</p>
+    </div>
+    <div class="flex flex-col lg:flex-row gap-16 w-[90%] py-20 m-auto">
+        <div class="left w-[40%] flex flex-col gap-1">
+            <h2 class="font-medium text-sm">Office Address 1:</h2>
+            <p class="text-sm text-[#B5BABF] mt-2">Spread Code,SuleimanKhil Plaza, 1st floor,</p>
+            <span class="text-sm text-[#B5BABF]">Abbottabad Pakistan.</span>
+            <h2 class="font-medium text-sm mt-6">Working Hours:</h2>
+            <p class="text-sm text-[#B5BABF] mt-2">11:00AM To 7:00PM PST</p>
+        </div>
+        <div class="right flex flex-col gap-5 w-full">
+            <div class="flex gap-5">
+                <input class="text-sm bg-transparent w-[50%] font-lighter rounded-sm p-3 outline-none border" type="text" placeholder="Your name*">
+                <input class="text-sm bg-transparent w-[50%] font-lighter rounded-sm p-3 outline-none border" type="email" placeholder="Your email*">
+            </div>
+            <input class="text-sm bg-transparent font-lighter rounded-sm p-3 outline-none border" type="text" placeholder="Your Subject..">
+            <textarea class="text-sm bg-transparent font-lighter rounded-sm p-3 outline-none border h-28" name="textAREA" placeholder="Your message.."></textarea>
+            <div class="flex justify-end">
+                <button class="bg-[#FB3E3E] hover:bg-[#B80334] hover:translate-y-[-5px] transition-all duration-300 text-white text-sm w-fit px-5 py-3 rounded-md flex items-center justify-center">Send Message</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="flex flex-col lg:flex-row lg:w-[90%] m-auto justify-end gap-5 lg:gap-24">
+        <div class="flex items-center"><span class="material-symbols-outlined">call</span><span class="text-xl ml-2">+92 340 9849 540</span></div>
+        <div class="flex items-center"><span class="material-symbols-outlined">drafts</span><span class="text-xl ml-2">info@spreadcode.org</span></div>
+    </div>
+</section>
+
+<footer style="font-family: rubik;">
+    <div class="w-[85%] m-auto flex py-20">
+        <div class="left flex flex-col gap-5 w-[50%]">
+            <h1 class="font-medium mb-2 text-xl" style="font-family: poppins;">SPREAD CODE</h1>
+            <span class="text-sm text-[#98a0aa]">Home</span>
+            <span class="text-sm text-[#98a0aa]">About us</span>
+            <span class="text-sm text-[#98a0aa]">Careers</span>
+            <span class="text-sm text-[#98a0aa]">Contact us</span>
+        </div>
+        <div class="right flex flex-col gap-5 w-[50%]">
+            <h1 class="font-medium mb-2 text-xl" style="font-family: poppins;">Subscribe</h1>
+            <p class="text-sm text-[#98a0aa]">Subscribe to receive updates and promotional offers. Yes we sometimes offer discounts we're not savages.</p>
+            <input class="text-sm bg-[#2E313A] font-lighter rounded-sm px-5 py-3 outline-none" type="email" placeholder="Email">
+        </div>
+    </div>
+    <div class="end bg-[#2E313A] text-sm py-5 "><div class="w-[85%] m-auto">2024 © Spread Code</div></div>
+</footer>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
