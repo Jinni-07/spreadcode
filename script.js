@@ -25,7 +25,7 @@ window.addEventListener('scroll', () => {
         if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
             // Set the active section color
             link.classList.add('text-white'); // Active color
-            link.classList.remove('text-[#ffffffc3]', 'text-[#ffffffcb]'); // Remove other color classes
+            link.classList.remove('text-[#ffffffc3]'); // Remove other color classes
         } else {
             // Reset the colors for non-active sections
             link.classList.remove('text-white'); // Remove active color
