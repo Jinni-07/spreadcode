@@ -10,22 +10,19 @@ module.exports = {
     },
     extend: {
       keyframes: {
-        move_wave: {
-          '0%': {
-            transform: 'translateX(0) translateZ(0) scaleY(1)',
-          },
-          '50%': {
-            transform: 'translateX(-25%) translateZ(0) scaleY(0.55)',
-          },
-          '100%': {
-            transform: 'translateX(-50%) translateZ(0) scaleY(1)',
-          },
+        wave10s: {
+          '0%': { backgroundPosition: '0 0' },
+          '100%': { backgroundPosition: '100% 0' },
+        },
+        wave15s: {
+          '0%': { backgroundPosition: '0 0' },
+          '100%': { backgroundPosition: '100% 0' },
         },
       },
       animation: {
-        move_wave_10s: 'move_wave 10s linear infinite',
-        move_wave_15s: 'move_wave 15s linear infinite',
-      }
+        wave10s: 'wave10s 10s linear infinite',
+        wave15s: 'wave15s 15s linear infinite',
+      },
     },
   },
   plugins: [],

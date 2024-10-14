@@ -17,41 +17,54 @@
 </head>
 <body class="bg-[#272A33] text-white select-none">
     <main>
-        <nav id="nav" class="flex flex-col items-start lg:flex-row lg:items-center lg:justify-center gap-3 lg:gap-20 lg:px-20 py-5 fixed top-0 bg-[#272A33] w-full z-30">
+        <nav id="nav" class="flex flex-col items-start lg:flex-row lg:items-center lg:justify-start gap-3 lg:gap-20 lg:px-20 py-5 bg-[#272A33] fixed top-0 w-full z-30">
                 <div class="flex w-full lg:w-fit items-center justify-around lg:justify-start">
                         <img width="36" src="logo.svg" alt="logo">
                         <h1 class="cursor-pointer text-xl font-bold tracking-[2px]">SPREADCODE</h1>
                     <div class="flex lg:hidden"><img id="menu" src="menu.svg" alt=""></div>
                 </div>
                 <ul id="ul" class="hidden lg:flex flex-col lg:flex-row px-10 lg:px-0 lg:my-auto  items-center gap-5 lg:gap-10">
-                    <a class="cursor-pointer text-sm font-medium text-[#ffffffcb] hover:text-white" style="font-family: rubik;" href="#Home">Home</a>
-                    <a class="cursor-pointer text-sm font-medium text-[#ffffffcb] hover:text-white" style="font-family: rubik;" href="#Services">Services</a>
-                    <a class="cursor-pointer text-sm font-medium text-[#ffffffcb] hover:text-white" style="font-family: rubik;" href="#Features">Features</a>
-                    <a class="cursor-pointer text-sm font-medium text-[#ffffffcb] hover:text-white" style="font-family: rubik;" href="#Pricing">Pricing</a>
-                    <a class="cursor-pointer text-sm font-medium text-[#ffffffcb] hover:text-white" style="font-family: rubik;" href="#Team">Team</a>
-                    <a class="cursor-pointer text-sm font-medium text-[#ffffffcb] hover:text-white" style="font-family: rubik;" href="#Contact">Contact</a>
+                    <a class="cursor-pointer text-[#ffffffcb] hover:text-white" style="font-family: rubik;" href="#Home">Home</a>
+                    <a class="cursor-pointer text-[#ffffffcb] hover:text-white" style="font-family: rubik;" href="#Services">Services</a>
+                    <a class="cursor-pointer text-[#ffffffcb] hover:text-white" style="font-family: rubik;" href="#Features">Features</a>
+                    <a class="cursor-pointer text-[#ffffffcb] hover:text-white" style="font-family: rubik;" href="#Pricing">Pricing</a>
+                    <a class="cursor-pointer text-[#ffffffcb] hover:text-white" style="font-family: rubik;" href="#Team">Team</a>
+                    <a class="cursor-pointer text-[#ffffffcb] hover:text-white" style="font-family: rubik;" href="#Contact">Contact</a>
                 </ul>
-        </nav>  
-
-        <section id="Home" class="w-full h-screen relative">
-            <div class="bg-[url(https://spreadcode.org/images/bg-home.jpg)] bg-cover bg-center bg-no-repeat w-full h-full opacity-50 absolute z-[-2]"></div>
+            </nav>  
+            
+            <section id="Home" class="w-full h-screen relative">
+            <div class="bg-[url('https://spreadcode.org/images/bg-home.jpg')] bg-cover bg-center bg-no-repeat w-full h-full opacity-50 absolute z-[-2]"></div>
             <div class="overlay bg-gradient-to-r from-[#512DA8] to-[#8c2722] opacity-80 w-full h-full absolute z-[-1]"></div>
-        <div class="py-[35vh]">
-            <div class="w-fit m-auto ">
-                <h1 class="font-medium text-5xl text-center leading-relaxed">We Help Businesses Launch</h1>
-                <h1 class="font-medium text-5xl text-center">Their Products.</h1>
-                <p class="text-center text-sm mt-10 text-[#ffffffcb]" style="font-family: rubik;">Dinosaurs went extinct, but your brand will never see the same fate.</p>
-            </div>        
-        </div>
-    <div class="absolute bottom-0 w-full h-[110px] overflow-hidden">
+            <canvas id="pentagonCanvas" class="w-full h-full absolute z-[20]"></canvas>
+            
+            <div class="py-[35vh]">
+                <div class="w-fit m-auto">
+                    <h1 class="font-medium text-5xl text-center leading-relaxed">We Help Businesses Launch</h1>
+                    <h1 class="font-medium text-5xl text-center">Their Products.</h1>
+                    <p class="text-center text-sm mt-10 text-[#ffffffcb]" style="font-family: rubik;">Dinosaurs went extinct, but your brand will never see the same fate.</p>
+                </div>        
+            </div>
         
-        <img class="absolute bottom-0 w-[200%] h-full z-15 opacity-50 overflow-hidden" src="https://spreadcode.org/images/wave-shape/wave1.png" alt="">
+            <div class="absolute bottom-0 w-full h-[110px] overflow-hidden">
+                <div class="absolute bottom-0 w-full h-full opacity-50 z-15 bg-[url('https://spreadcode.org/images/wave-shape/wave1.png')] 
+                            bg-repeat-x bg-[position:50%] bg-[length:200%_100%]">
+                </div>
+            
+                <div class="absolute bottom-0 w-full h-[80%] opacity-75 z-10 bg-[url('https://spreadcode.org/images/wave-shape/wave2.png')] 
+                            bg-repeat-x bg-[length:200%_100%] animate-wave10s">
+                </div>
+            
+                <div class="absolute bottom-0 w-full h-[80%] z-5 bg-[url('https://spreadcode.org/images/wave-shape/wave3.png')] 
+                            bg-repeat-x bg-[length:200%_100%] animate-wave15s">
+                </div>
+            </div>
+            
+            
+        </section>
         
-        <img class="absolute bottom-[-20px] w-[150%] h-full z-10 opacity-75 " src="https://spreadcode.org/images/wave-shape/wave2.png" alt="">
         
-        <img class="absolute bottom-[-35px] w-[150%] h-full z-5 " src="https://spreadcode.org/images/wave-shape/wave3.png" alt="">
-    </div>
-</section> 
+        
 
 <section id="Services" class="bg-white text-black w-full py-20">
     <div class="lg:w-[55%] m-auto flex flex-col items-center gap-5">
